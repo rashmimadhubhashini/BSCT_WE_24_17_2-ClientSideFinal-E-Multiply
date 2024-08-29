@@ -12,10 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
     // Set the button's text
     newButton.textContent = 'Go to Courses';
 
-    // Add an event listener to the button to redirect to the Courses page
+    // Add an event listener to the button to redirect to the Courses page with a popup message
     newButton.addEventListener('click', function() {
-        // Replace 'courses.html' with the actual path to your Courses page
-        window.location.href = 'CourseContent.html';
+        // Show a popup message
+        alert('You are being redirected to the Courses page.');
+
+        // Redirect to the Courses page after the alert
+        setTimeout(function() {
+            window.location.href = 'courses.html';
+        }, 500); // Delay for the alert to be visible
     });
 
     // Append the new button to the container div
