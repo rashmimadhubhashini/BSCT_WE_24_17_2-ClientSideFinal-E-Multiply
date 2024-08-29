@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Redirect to the Courses page after the alert
         setTimeout(function() {
-            window.location.href = 'courses.html';
+            window.location.href = 'CourseContent.html';
         }, 500); // Delay for the alert to be visible
     });
 
