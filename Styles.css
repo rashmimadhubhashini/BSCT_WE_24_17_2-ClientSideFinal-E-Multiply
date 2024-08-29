@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7da2c7;
+    color: #010c18;
+}
+
+header {
+    background: url('back.jpg') no-repeat center center;
+    background-size: cover;
+    color: #111010;
+}
+
+.hero {
+    background: url('back.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(17, 17, 17);
+    text-align: left;
+    position: relative;
+}
+
+header .btn {
+    margin-top: 20px;
+    color: blue;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.course-card-container {
+    display: flex;
+    gap: 20px;
+}
+.course-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    font-size: 14px;
+}
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+.course-details {
+    padding: 15px;
+}
+.course-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+.course-details .duration {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+}
+.duration.green {
+    color: #fff;
+    background-color: #4caf50;
+    padding: 5px;
+    border-radius: 5px;
+}
+.duration.orange {
+    color: #fff;
+    background-color: #ff9800;
+    padding: 5px;
+    border-radius: 5px;
+}
+.course-details .more-details {
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
